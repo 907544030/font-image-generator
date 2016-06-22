@@ -1,5 +1,4 @@
 <?php
-echo generate('big-noodle-too.ttf','Soldier: 76',44,500,500,'aaaaaa','000000');
 function generate($fontfile,$text=false,$size=25,$width=800, $height=200,$text_color='000000',$background_color='ffffff')
 {
     $fontname = getfontname($fontfile);
